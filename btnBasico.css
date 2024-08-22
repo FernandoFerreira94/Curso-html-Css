@@ -1,0 +1,283 @@
+.red,
+.junta,
+.tweet {
+  display: inline;
+}
+
+.layoute a {
+  color: black;
+  margin: 3px;
+}
+
+button {
+  margin: 5px;
+  cursor: pointer;
+}
+
+.carrinho a {
+  color: rgb(0, 113, 133);
+}
+
+.carrinho div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.preco {
+  color: rgb(0, 118, 0);
+}
+
+.carrinho {
+  margin-left: 5px;
+  border: solid 1px black;
+  padding: 20px;
+}
+
+/*---------------------*/
+.red button {
+  cursor: pointer;
+  background-color: rgb(203, 0, 0);
+  color: white;
+  border: none;
+  padding: 10px 12px;
+  border-radius: 2px;
+}
+
+.red button:hover {
+  opacity: 0.9;
+}
+
+.red button:active {
+  opacity: 0.6;
+}
+
+/*---------------------*/
+.junta button {
+  color: rgb(41, 118, 211);
+  background-color: white;
+  border: rgb(41, 118, 211) solid 1px;
+  padding: 8px 10px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 2px;
+  -webkit-transition: background 0.2s, color 0.2s, opacity 0.2s;
+  transition: background 0.2s, color 0.2s, opacity 0.2s;
+}
+
+.junta button:hover {
+  color: white;
+  background-color: rgb(41, 118, 211);
+}
+
+.junta button:active {
+  opacity: 0.7;
+}
+
+/*---------------------*/
+.tweet button {
+  background-color: rgb(0, 164, 219);
+  color: white;
+  border-radius: 16px;
+  border: none;
+  padding: 8px 14px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  -webkit-transition: -webkit-box-shadow 0.2s;
+  transition: -webkit-box-shadow 0.2s;
+  transition: box-shadow 0.2s;
+  transition: box-shadow 0.2s, -webkit-box-shadow 0.2s;
+}
+
+/*---------------------*/
+.tweet button:hover {
+  -webkit-box-shadow: 2px 2px 3px rgba(0, 164, 219, 0.6);
+          box-shadow: 2px 2px 3px rgba(0, 164, 219, 0.6);
+}
+
+/*---------------------*/
+.uber {
+  color: white;
+  background-color: black;
+  padding: 10px 12px;
+  border: none;
+  -webkit-transition: opacity 0.2s;
+  transition: opacity 0.2s;
+}
+
+.uber:hover {
+  opacity: 0.8;
+}
+
+/*---------------------*/
+.amazon {
+  color: black;
+  background-color: rgb(255, 216, 20);
+  border: none;
+  padding: 10px 14px;
+  border-radius: 20px;
+  -webkit-transition: background 0.2s;
+  transition: background 0.2s;
+}
+
+.amazon:hover {
+  background-color: rgb(235, 206, 20);
+}
+
+/*---------------------*/
+.github {
+  color: white;
+  background-color: rgb(46, 164, 79);
+  border: none;
+  padding: 8px;
+  border-radius: 6px;
+  font-weight: bold;
+  -webkit-transition: opacity 0.2s;
+  transition: opacity 0.2s;
+}
+
+.github:hover {
+  -webkit-box-shadow: 2px 2px 4px rgba(46, 164, 79, 0.4);
+          box-shadow: 2px 2px 4px rgba(46, 164, 79, 0.4);
+}
+
+/*---------------------*/
+.bootstrap1 {
+  color: white;
+  background-color: rgb(110, 75, 179);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  -webkit-transition: background 0.2s;
+  transition: background 0.2s;
+}
+
+.bootstrap1:hover {
+  background-color: rgb(90, 55, 159);
+}
+
+/*---------------------*/
+.bootstrap2 {
+  color: rgb(108, 117, 125);
+  background-color: white;
+  border: solid rgb(108, 117, 125);
+  padding: 12px;
+  font-weight: 600;
+  border-radius: 4px;
+  -webkit-transition: color 0.2s, background 0.2s;
+  transition: color 0.2s, background 0.2s;
+}
+
+.bootstrap2:hover {
+  color: white;
+  background-color: rgb(108, 117, 125);
+}
+
+/*---------------------*/
+.linkdin1 {
+  color: white;
+  background-color: rgb(10, 102, 194);
+  border: none;
+  border-radius: 20px;
+  padding: 10px 35px;
+  font-weight: 600;
+  -webkit-transition: background 0.2s;
+  transition: background 0.2s;
+}
+
+.linkdin1:hover {
+  background-color: rgb(0, 82, 164);
+}
+
+/*---------------------*/
+.linkdin2 {
+  color: rgb(10, 102, 194);
+  background-color: white;
+  border: solid rgb(10, 102, 194);
+  padding: 8px 20px;
+  border-radius: 30px;
+  font-weight: 600;
+  -webkit-transition: border 0.2s;
+  transition: border 0.2s;
+}
+
+.linkdin2:hover {
+  border: solid 2px;
+}
+
+/*---------------------*/
+.adc {
+  color: black;
+  background-color: rgb(255, 216, 20);
+  padding: 2px 10px;
+  width: 120px;
+  border: none;
+  border-radius: 30px;
+  font-size: 15px;
+  -webkit-transition: background 0.2s;
+  transition: background 0.2s;
+}
+
+.adc:hover {
+  background-color: rgb(235, 186, 0);
+}
+
+/*---------------------*/
+.com {
+  color: black;
+  background-color: rgb(255, 164, 28);
+  padding: 10px;
+  border: none;
+  border-radius: 30px;
+  font-size: 15px;
+  margin-top: 5px;
+  -webkit-transition: background 0.2s;
+  transition: background 0.2s;
+}
+
+.com:hover {
+  background-color: rgb(235, 144, 8);
+}
+
+/*---------------------*/
+.voltar {
+  padding: 5px;
+}
+
+.proximo {
+  padding: 5px;
+}
+
+.esticar {
+  color: white;
+  background-color: green;
+  border: none;
+  padding: 8px;
+  -webkit-transition: padding 0.7s;
+  transition: padding 0.7s;
+}
+
+.esticar:hover {
+  padding: 20px;
+}
+
+.shadow {
+  color: white;
+  background-color: green;
+  border: none;
+  padding: 8px;
+  -webkit-box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.3);
+          box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.3);
+}
+
+.normal {
+  color: white;
+  background-color: green;
+  border: none;
+  padding: 10px;
+}
