@@ -1,0 +1,100 @@
+div {
+  border: 1px solid black;
+  margin: 5px;
+}
+
+.pBtn {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  padding: 0px 10px;
+}
+.pBtn p {
+  display: inline-block;
+  width: 200px;
+  vertical-align: middle;
+}
+
+.google {
+  width: 500px;
+}
+.google img {
+  width: 200px;
+  padding: 10px 25%;
+}
+.google input {
+  color: black;
+  font-size: 14px;
+  display: inline-block;
+  width: 460px;
+  margin: 0px 5px 10px 5px;
+  padding: 10px 5px 10px 25px;
+  border: solid rgba(0, 0, 0, 0.1) 1px;
+  border-radius: 30px;
+  -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+          box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.form {
+  width: 300px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.form input {
+  width: 130px;
+  margin: 10px 0px 10px 5px;
+  padding: 8px 0px 8px 5px;
+  border-radius: 6px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  color: black;
+}
+.form .email {
+  width: 278px;
+  margin-top: 0px;
+}
+.form button {
+  width: 285px;
+  margin: 0px 5px 5px 5px;
+  padding: 10px 0px;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(27, 93, 190);
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.uber {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  padding: 5px 5px 5px 10px;
+  font-family: "Trebuchet MS";
+}
+.uber h1 {
+  padding: 0px;
+  margin: 0px 0px 15px 0px;
+}
+.uber input {
+  width: 80%;
+  display: block;
+  margin-bottom: 10px;
+  padding: 8px 10px;
+  font-size: 15px;
+  background-color: rgba(219, 219, 219, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.uber button {
+  width: 30%;
+  padding: 8px 10px;
+  color: white;
+  background-color: black;
+  border: none;
+  cursor: pointer;
+}
+.uber .agendar {
+  width: 50%;
+  margin-left: 15px;
+  color: black;
+  background-color: rgba(219, 219, 219, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
