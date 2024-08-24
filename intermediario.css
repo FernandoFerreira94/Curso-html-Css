@@ -98,3 +98,109 @@ div {
   background-color: rgba(219, 219, 219, 0.2);
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
+
+.quadrado {
+  padding: 10px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  background-color: black;
+}
+.quadrado div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+
+.redondo {
+  padding: 10px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  background-color: black;
+}
+.redondo div {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  border-radius: 100px;
+}
+
+.sat {
+  padding: 5px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+.sat div {
+  border: 1px solid rgba(0, 0, 0, 0.4);
+}
+.sat p {
+  margin: 10px 50px 10px 10px;
+}
+.sat button {
+  position: relative;
+  left: 10px;
+  margin: 10px 3px 10px 0px;
+  cursor: pointer;
+}
+
+.inst {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+.inst div {
+  background-color: black;
+  padding: 10px;
+  font-family: sans-serif;
+  padding: 0px 15px;
+  display: inline-block;
+}
+.inst h3 {
+  margin-bottom: 0px;
+  color: white;
+}
+.inst p {
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.status {
+  width: 200px;
+  padding: 0px;
+  margin: 0px;
+}
+.status div {
+  border: none;
+  width: 130px;
+}
+.status .borda {
+  -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+          box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+  margin: 0px;
+  padding: 0px;
+  width: 180px;
+}
+.status img {
+  width: 180px;
+  display: block;
+  height: 190px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.status h4 {
+  margin: 3px 0px 0px 5px;
+}
+.status p {
+  margin: 5px 0px 5px 5px;
+  color: rgba(0, 0, 0, 0.8);
+}
+.status button {
+  margin: 5px;
+  color: white;
+  background-color: rgb(34, 85, 214);
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+}
