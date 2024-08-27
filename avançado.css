@@ -1,3 +1,7 @@
+body {
+  margin-bottom: 200px;
+}
+
 .red {
   background-color: lightcoral;
 }
@@ -102,4 +106,27 @@
   margin-left: 5px;
   font-size: 14px;
   cursor: pointer;
+}
+
+.flex-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 50px;
+  border: 1px solid black;
+  gap: 2px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+.flex-box .div1 {
+  width: 100px;
+}
+.flex-box .div2 {
+  width: 200px;
+}
+.flex-box .div3 {
+  width: 100px;
 }
