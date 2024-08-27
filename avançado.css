@@ -1,0 +1,105 @@
+.red {
+  background-color: lightcoral;
+}
+
+.blue {
+  background-color: lightblue;
+}
+
+.green {
+  background-color: lightgreen;
+}
+
+.grid1 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 200px 75px;
+  grid-template-columns: 200px 75px;
+}
+
+.grid2 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50px 1fr 75px;
+  grid-template-columns: 50px 1fr 75px;
+}
+
+.grid3 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 20px 1fr 20px 1fr 20px 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 10px;
+  -webkit-column-gap: 20px;
+     -moz-column-gap: 20px;
+          column-gap: 20px;
+}
+.grid3 p {
+  margin: 0px;
+}
+
+.grid4 {
+  margin: 100px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 40px 1fr 40px 1fr 40px 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  -webkit-column-gap: 40px;
+     -moz-column-gap: 40px;
+          column-gap: 40px;
+}
+.grid4 .perfil {
+  width: 100%;
+}
+.grid4 .perfil .img img {
+  width: 100%;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.grid4 .perfil .info {
+  border: 1px solid rgb(96, 96, 96), 0.2;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  margin-top: -5px;
+  -webkit-box-shadow: 2px 2px 5px rgba(96, 96, 96, 0.4);
+          box-shadow: 2px 2px 5px rgba(96, 96, 96, 0.4);
+  height: 105px;
+}
+.grid4 .perfil .info .name {
+  font-size: 18px;
+  margin: 5px;
+  font-weight: 600;
+}
+.grid4 .perfil .info .div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 10px;
+  margin-left: 5px;
+}
+.grid4 .perfil .info .div img {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+.grid4 .perfil .info .div .friend {
+  display: inline-block;
+  margin: 5px;
+  font-size: 14px;
+  color: rgb(96, 96, 96);
+}
+.grid4 .perfil .info button {
+  display: block;
+  color: white;
+  background-color: dodgerblue;
+  padding: 8px 13px;
+  border: none;
+  border-radius: 7px;
+  margin-left: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
