@@ -718,3 +718,138 @@ body {
 .l14e .info p {
   color: rgb(140, 140, 140);
 }
+
+.l15a {
+  width: 300px;
+  height: 100px;
+  border: 1PX SOLID black;
+  margin: 10px;
+  position: relative;
+}
+.l15a div {
+  background-color: black;
+  color: white;
+  display: inline-block;
+  border-radius: 50%;
+  width: 20px;
+  padding: 8px;
+  text-align: center;
+  height: 20px;
+  font-size: 22px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.l15b {
+  width: 320px;
+  height: 180px;
+  border: 1px solid black;
+  margin: 10px;
+  position: relative;
+}
+.l15b .box {
+  width: 150px;
+  height: 80px;
+  background-color: gray;
+  position: absolute;
+  bottom: 10px;
+  right: 15px;
+}
+.l15b .box p {
+  background-color: black;
+  color: white;
+  display: inline-block;
+  padding: 2px 4px;
+  font-size: 14px;
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  margin: 0px;
+}
+.l15b .x {
+  background-color: black;
+  color: white;
+  display: inline-block;
+  border-radius: 50%;
+  width: 10px;
+  padding: 10px;
+  text-align: center;
+  height: 10px;
+  font-size: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  right: 150px;
+  bottom: 75px;
+}
+
+.l15f {
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+  margin-left: 40px;
+  margin-top: 40px;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.l15f .sale {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(200, 200, 200);
+  background-image: url(../shirt.jpg);
+  background-position: center;
+  background-size: 95%;
+  background-repeat: no-repeat;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: relative;
+}
+.l15f .sale p {
+  margin: 0;
+  padding: 6px 8px;
+  font-size: 0.9em;
+  background-color: black;
+  color: white;
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  top: 10px;
+}
+.l15f .sale .btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 30%;
+  position: absolute;
+  bottom: 0px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.l15f .sale .btn button {
+  padding: 8px 10px;
+}
